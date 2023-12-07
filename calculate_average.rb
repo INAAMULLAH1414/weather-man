@@ -44,6 +44,7 @@ module Calculation
         humidity_count += 1
       end
     end
+
     puts "Average Humidity: #{(humidity_sum / humidity_count).to_i}%" if humidity_count != 0
   end
 end
