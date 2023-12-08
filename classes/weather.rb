@@ -5,8 +5,8 @@ module ClassWeather
   # Storage of files and data
   class Weather
     def initialize
-      @filesarray = []
-      @filesdata = []
+      @files = []
+      @weather_records = []
     end
   end
 end
